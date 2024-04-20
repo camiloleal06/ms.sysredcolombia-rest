@@ -1,0 +1,40 @@
+2024-04-20T14:15:30.005-05:00  INFO 3180 --- [ms.sysredcolombia-rest] [main] m.sysredcolombia.rest.ApplicationTests   : Starting ApplicationTests using Java 17 with PID 3180 (started by camilo.leal_pragma in C:\Users\camilo.leal_pragma\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\ms.sysredcolombia-rest)
+2024-04-20T14:15:30.025-05:00  INFO 3180 --- [ms.sysredcolombia-rest] [main] m.sysredcolombia.rest.ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2024-04-20T14:15:31.449-05:00  INFO 3180 --- [ms.sysredcolombia-rest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-20T14:15:31.561-05:00  INFO 3180 --- [ms.sysredcolombia-rest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 99 ms. Found 4 JPA repository interfaces.
+2024-04-20T14:15:32.310-05:00  INFO 3180 --- [ms.sysredcolombia-rest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-20T14:15:32.439-05:00  INFO 3180 --- [ms.sysredcolombia-rest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-20T14:15:32.506-05:00  INFO 3180 --- [ms.sysredcolombia-rest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-20T14:15:33.149-05:00  INFO 3180 --- [ms.sysredcolombia-rest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-20T14:15:33.208-05:00  INFO 3180 --- [ms.sysredcolombia-rest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-20T14:15:34.576-05:00  INFO 3180 --- [ms.sysredcolombia-rest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@135e49b2
+2024-04-20T14:15:34.579-05:00  INFO 3180 --- [ms.sysredcolombia-rest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-20T14:15:34.795-05:00  WARN 3180 --- [ms.sysredcolombia-rest] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-20T14:15:35.781-05:00  INFO 3180 --- [ms.sysredcolombia-rest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-20T14:15:36.919-05:00  INFO 3180 --- [ms.sysredcolombia-rest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-20T14:15:37.249-05:00  INFO 3180 --- [ms.sysredcolombia-rest] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-20T14:15:38.804-05:00  WARN 3180 --- [ms.sysredcolombia-rest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-20T14:15:39.557-05:00  INFO 3180 --- [ms.sysredcolombia-rest] [main] m.sysredcolombia.rest.ApplicationTests   : Started ApplicationTests in 10.023 seconds (process running for 11.607)
+2024-04-20T14:15:40.540-05:00  INFO 3180 --- [ms.sysredcolombia-rest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-20T14:15:40.545-05:00  INFO 3180 --- [ms.sysredcolombia-rest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-20T14:15:40.742-05:00  INFO 3180 --- [ms.sysredcolombia-rest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-20T16:10:50.419-05:00  INFO 13636 --- [ms.sysredcolombia-rest] [main] m.sysredcolombia.rest.ApplicationTests   : Starting ApplicationTests using Java 17 with PID 13636 (started by camilo.leal_pragma in C:\Users\camilo.leal_pragma\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\ms.sysredcolombia-rest)
+2024-04-20T16:10:50.422-05:00  INFO 13636 --- [ms.sysredcolombia-rest] [main] m.sysredcolombia.rest.ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2024-04-20T16:10:51.643-05:00  INFO 13636 --- [ms.sysredcolombia-rest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-20T16:10:51.773-05:00  INFO 13636 --- [ms.sysredcolombia-rest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 119 ms. Found 4 JPA repository interfaces.
+2024-04-20T16:10:52.504-05:00  INFO 13636 --- [ms.sysredcolombia-rest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-20T16:10:52.608-05:00  INFO 13636 --- [ms.sysredcolombia-rest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-20T16:10:52.658-05:00  INFO 13636 --- [ms.sysredcolombia-rest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-20T16:10:53.104-05:00  INFO 13636 --- [ms.sysredcolombia-rest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-20T16:10:53.157-05:00  INFO 13636 --- [ms.sysredcolombia-rest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-20T16:10:54.881-05:00  INFO 13636 --- [ms.sysredcolombia-rest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@41938e1e
+2024-04-20T16:10:54.884-05:00  INFO 13636 --- [ms.sysredcolombia-rest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-20T16:10:55.124-05:00  WARN 13636 --- [ms.sysredcolombia-rest] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-20T16:10:56.037-05:00  INFO 13636 --- [ms.sysredcolombia-rest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-20T16:10:57.247-05:00  INFO 13636 --- [ms.sysredcolombia-rest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-20T16:10:57.598-05:00  INFO 13636 --- [ms.sysredcolombia-rest] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-20T16:10:59.532-05:00  WARN 13636 --- [ms.sysredcolombia-rest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-20T16:11:00.303-05:00  INFO 13636 --- [ms.sysredcolombia-rest] [main] m.sysredcolombia.rest.ApplicationTests   : Started ApplicationTests in 10.369 seconds (process running for 11.837)
+2024-04-20T16:11:01.258-05:00  INFO 13636 --- [ms.sysredcolombia-rest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-20T16:11:01.262-05:00  INFO 13636 --- [ms.sysredcolombia-rest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-20T16:11:01.454-05:00  INFO 13636 --- [ms.sysredcolombia-rest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
