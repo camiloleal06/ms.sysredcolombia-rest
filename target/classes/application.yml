@@ -1,7 +1,3 @@
-logging:
-  file:
-    name: sysred.log
-    path: /var/log
 server:
     port: ${PORT:8080}
 spring:
