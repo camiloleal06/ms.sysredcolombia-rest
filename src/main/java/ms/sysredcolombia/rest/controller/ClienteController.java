@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -16,12 +17,14 @@ import ms.sysredcolombia.rest.modelo.dtos.ClienteDtoView;
 import ms.sysredcolombia.rest.modelo.dtos.CreateClienteDto;
 import ms.sysredcolombia.rest.modelo.dtos.FacturaDto;
 import ms.sysredcolombia.rest.modelo.entidades.Configuracion;
+import ms.sysredcolombia.rest.modelo.enums.EstadoCliente;
 import ms.sysredcolombia.rest.modelo.interfaces.ClienteInterface;
 import ms.sysredcolombia.rest.modelo.interfaces.FacturaInterface;
 
 @RestController
 @RequestMapping("/api/clientes/")
 @AllArgsConstructor
+@CrossOrigin(origins = "*")
 public class ClienteController {
 	private final ClienteInterface clienteInterface;
 	private final FacturaInterface facturaInterface;
@@ -29,6 +32,25 @@ public class ClienteController {
 	@GetMapping
 	public ResponseEntity<List<ClienteDtoView>> listarClientes() {
 		return new ResponseEntity<List<ClienteDtoView>>(clienteInterface.listaClientesDto(), HttpStatus.OK);
+	}
+
+	@GetMapping("prueba")
+	public ResponseEntity<List<ClienteDtoView>> listarClientesPruebas() {
+		List<ClienteDtoView> lista =	List.of(ClienteDtoView.builder()
+		.direccion("Olaya")
+		.email("camilo@gmail.com")
+		.estado(EstadoCliente.ACTIVO)
+		.nombre("Camilo Leal")
+		.id(1).nombre("INterne Fibra")
+		.build(),ClienteDtoView.builder()
+		.direccion("Olaya")
+		.email("camilo@gmail.com")
+		.estado(EstadoCliente.ACTIVO)
+		.nombre("Orfa PAtiño")
+		.id(2).nombre("INterne Fibra")
+		.build());
+		
+		return new ResponseEntity<List<ClienteDtoView>>(lista, HttpStatus.OK);
 	}
 
 	@PostMapping

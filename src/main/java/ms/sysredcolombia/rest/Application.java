@@ -13,18 +13,4 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 	}
 	
-	@Bean
-	 WebMvcConfigurer corsConfigurer() {
-		return new WebMvcConfigurer() {
-			@Override
-			public void addCorsMappings(CorsRegistry registry) {
-				registry
-				.addMapping("/api/**")
-				.allowedOrigins("*")
-				.allowCredentials(true)
-				.allowPrivateNetwork(true);
-			}
-		};
-	}
-
 }

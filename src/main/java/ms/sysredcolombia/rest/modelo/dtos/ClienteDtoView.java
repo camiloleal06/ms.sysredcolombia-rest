@@ -1,6 +1,7 @@
 package ms.sysredcolombia.rest.modelo.dtos;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -10,6 +11,7 @@ import ms.sysredcolombia.rest.modelo.enums.EstadoCliente;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class ClienteDtoView {
     private int id;
     private String nombres;
@@ -19,4 +21,5 @@ public class ClienteDtoView {
     private double precio;  
     private String nombre; 
     private String direccion;
+    
   }

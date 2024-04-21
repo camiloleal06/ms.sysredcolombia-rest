@@ -10,7 +10,6 @@ ms\sysredcolombia\rest\modelo\entidades\Configuracion.class
 ms\sysredcolombia\rest\controller\ClienteController.class
 ms\sysredcolombia\rest\modelo\exceptions\ErrorDto.class
 ms\sysredcolombia\rest\modelo\dtos\ClienteDto.class
-ms\sysredcolombia\rest\Application$1.class
 ms\sysredcolombia\rest\modelo\interfaces\FacturaInterface.class
 ms\sysredcolombia\rest\modelo\ClienteRepository.class
 ms\sysredcolombia\rest\service\FacturaServiceImpl.class
@@ -34,4 +33,5 @@ ms\sysredcolombia\rest\modelo\dtos\DtoConverter.class
 ms\sysredcolombia\rest\Application.class
 ms\sysredcolombia\rest\controller\PlanController.class
 ms\sysredcolombia\rest\modelo\dtos\UserDto$UserDtoBuilder.class
+ms\sysredcolombia\rest\modelo\dtos\ClienteDtoView$ClienteDtoViewBuilder.class
 ms\sysredcolombia\rest\modelo\dtos\ClienteDtoView.class
