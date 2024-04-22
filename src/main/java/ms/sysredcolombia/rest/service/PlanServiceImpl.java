@@ -5,10 +5,9 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import lombok.AllArgsConstructor;
-import ms.sysredcolombia.rest.modelo.PlanRepository;
+import ms.sysredcolombia.rest.modelo.repository.PlanRepository;
 import ms.sysredcolombia.rest.modelo.dtos.DtoConverter;
 import ms.sysredcolombia.rest.modelo.dtos.PlanDto;
-import ms.sysredcolombia.rest.modelo.entidades.Cliente;
 import ms.sysredcolombia.rest.modelo.entidades.Plan;
 import ms.sysredcolombia.rest.modelo.interfaces.PlanInterface;
 

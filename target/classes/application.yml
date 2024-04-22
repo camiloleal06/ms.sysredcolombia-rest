@@ -1,4 +1,10 @@
 server:
+  ssl:
+    key-store: classpath:certificado.p12
+    key-store-password: FULLRED
+    key-alias: FULLRED
+    key-password: FULLRED
+    key-store-type: pkcs12
     port: ${PORT:8080}
 spring:
   application:

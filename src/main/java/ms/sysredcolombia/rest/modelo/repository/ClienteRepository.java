@@ -1,4 +1,4 @@
-package ms.sysredcolombia.rest.modelo;
+package ms.sysredcolombia.rest.modelo.repository;
 
 import java.util.List;
 import java.util.Optional;

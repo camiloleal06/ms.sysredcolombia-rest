@@ -7,8 +7,8 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import lombok.AllArgsConstructor;
-import ms.sysredcolombia.rest.modelo.ClienteRepository;
-import ms.sysredcolombia.rest.modelo.ConfiguracionRepository;
+import ms.sysredcolombia.rest.modelo.repository.ClienteRepository;
+import ms.sysredcolombia.rest.modelo.repository.ConfiguracionRepository;
 import ms.sysredcolombia.rest.modelo.dtos.ClienteDtoView;
 import ms.sysredcolombia.rest.modelo.dtos.CreateClienteDto;
 import ms.sysredcolombia.rest.modelo.dtos.DtoConverter;
