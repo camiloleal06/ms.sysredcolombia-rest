@@ -21,5 +21,5 @@ public class ClienteDtoView {
     private double precio;  
     private String nombre; 
     private String direccion;
-    
-  }
+    private String profileName;
+   }

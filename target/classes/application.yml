@@ -1,10 +1,4 @@
 server:
-  ssl:
-    key-store: classpath:certificado.p12
-    key-store-password: FULLRED
-    key-alias: FULLRED
-    key-password: FULLRED
-    key-store-type: pkcs12
     port: ${PORT:8080}
 spring:
   application:
@@ -19,7 +13,7 @@ spring:
       minimum-idle: 20
       validation-timeout: 3000
     password: C4m1l02020+-+
-    url: jdbc:mysql://sysredcartagena.duckdns.org/sysredpruebas?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+    url: jdbc:mysql://74.208.118.100/sysredpruebas?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
     username: camiloleal
   jpa:
     hibernate:
@@ -27,19 +21,4 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
-    show-sql: true
-  mail:
-    host: smtp.gmail.com
-    password: 'incxuskcnhxoeybt '
-    port: 587
-    properties:
-      mail:
-        smtp:
-          auth: true
-          connectiontimeout: 5000
-          starttls:
-            enable: true
-            required: true
-          timeout: 5000
-          writetimeout: 5000
-    username: sysredcartagena@gmail.com
+    show-sql: false

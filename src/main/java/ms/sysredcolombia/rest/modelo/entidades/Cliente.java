@@ -3,6 +3,8 @@ package ms.sysredcolombia.rest.modelo.entidades;
 import java.io.Serializable;
 import java.util.Date;
 
+import jakarta.persistence.OneToOne;
+import ms.sysredcolombia.rest.mikrotik.modelo.Profile;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import jakarta.persistence.Column;
@@ -38,7 +40,6 @@ public class Cliente implements Serializable {
 	private String email;
 	private String telefono;
 	private String direccion;
-	private String velocidad;
 	private String pppoeuser;
 	private String pppoepassword;
 	private EstadoCliente estado = EstadoCliente.ACTIVO;
@@ -46,12 +47,12 @@ public class Cliente implements Serializable {
 	@Temporal(TemporalType.DATE)
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
 	private Date createAt;
-
 	@ManyToOne(fetch = jakarta.persistence.FetchType.EAGER)
 	private Plan plan;
 	@ManyToOne(fetch = jakarta.persistence.FetchType.EAGER)
 	private Configuracion configuracion;
-
+	@OneToOne
+	private Profile profile;
 	@PrePersist
 	public void prePersist() {
 		createAt = new Date();

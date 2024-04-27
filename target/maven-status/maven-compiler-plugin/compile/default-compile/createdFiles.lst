@@ -1,8 +1,10 @@
 ms\sysredcolombia\rest\modelo\entidades\Cliente.class
+ms\sysredcolombia\rest\mikrotik\Conectar.class
 ms\sysredcolombia\rest\modelo\dtos\FacturaDto.class
 ms\sysredcolombia\rest\service\PlanServiceImpl.class
 ms\sysredcolombia\rest\modelo\exceptions\ControllerAdvice.class
 ms\sysredcolombia\rest\service\ClienteServiceImpl.class
+ms\sysredcolombia\rest\mikrotik\Funciones.class
 ms\sysredcolombia\rest\modelo\repository\ConfiguracionRepository.class
 ms\sysredcolombia\rest\modelo\dtos\CreateFacturaDto.class
 ms\sysredcolombia\rest\modelo\entidades\Configuracion.class
@@ -13,6 +15,7 @@ ms\sysredcolombia\rest\modelo\repository\ClienteRepository.class
 ms\sysredcolombia\rest\modelo\interfaces\FacturaInterface.class
 ms\sysredcolombia\rest\service\FacturaServiceImpl.class
 ms\sysredcolombia\rest\modelo\repository\PlanRepository.class
+ms\sysredcolombia\rest\utils\MikrotikUtils.class
 ms\sysredcolombia\rest\modelo\dtos\UserDto.class
 ms\sysredcolombia\rest\modelo\dtos\CreateClienteDto.class
 ms\sysredcolombia\rest\modelo\dtos\PlanDto$PlanDtoBuilder.class
@@ -23,6 +26,7 @@ ms\sysredcolombia\rest\modelo\interfaces\ClienteInterface.class
 ms\sysredcolombia\rest\controller\FacturaController.class
 ms\sysredcolombia\rest\modelo\entidades\Plan$PlanBuilder.class
 ms\sysredcolombia\rest\modelo\entidades\Plan.class
+ms\sysredcolombia\rest\mikrotik\ConfigMikrotik.class
 ms\sysredcolombia\rest\modelo\exceptions\ErrorDto$ErrorDtoBuilder.class
 ms\sysredcolombia\rest\modelo\exceptions\NotFoundException.class
 ms\sysredcolombia\rest\modelo\interfaces\PlanInterface.class

@@ -18,13 +18,13 @@ public interface ClienteRepository  extends JpaRepository<Cliente, Integer>{
 			+ " FROM Cliente c  where c.estado=0")*/
 	
 	@Query("SELECT new ms.sysredcolombia.rest.modelo.dtos.ClienteDtoView(c.id, CONCAT(c.nombres,' ',c.apellidos), "
-			+ "c.email, c.telefono, c.estado , p.precio,p.nombre, c.direccion) "
-			+ " FROM Cliente c JOIN c.plan p where c.estado=0")	
+			+ "c.email, c.telefono, c.estado , p.precio,p.nombre, c.direccion, pf.profileName) "
+			+ " FROM Cliente c JOIN c.plan p JOIN profile pf where c.estado=0")
 	List<ClienteDtoView> lista();
 	
 	@Query("SELECT new ms.sysredcolombia.rest.modelo.dtos.ClienteDtoView(c.id,CONCAT(c.nombres,' ',c.apellidos), "
-			+ "c.email, c.telefono, c.estado , p.precio,p.nombre, c.direccion) "
-			+ " FROM Cliente c JOIN c.plan p where c.id=?1")
+			+ "c.email, c.telefono, c.estado , p.precio,p.nombre, c.direccion, pf.profileName) "
+			+ " FROM Cliente c JOIN c.plan p JOIN c.profile pf where c.id=?1")
 	Optional<ClienteDtoView> detalleCliente(int id);
 	
 	

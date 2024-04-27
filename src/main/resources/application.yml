@@ -1,5 +1,5 @@
 server:
-   port: ${PORT:8080}
+    port: ${PORT:8080}
 spring:
   application:
     name: ms.sysredcolombia-rest
@@ -13,7 +13,7 @@ spring:
       minimum-idle: 20
       validation-timeout: 3000
     password: C4m1l02020+-+
-    url: jdbc:mysql://sysredcartagena.duckdns.org/sysredpruebas?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+    url: jdbc:mysql://74.208.118.100/sysredpruebas?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
     username: camiloleal
   jpa:
     hibernate:
@@ -21,4 +21,4 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
-    show-sql: true
+    show-sql: false

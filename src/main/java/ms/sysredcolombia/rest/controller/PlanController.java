@@ -23,7 +23,7 @@ public class PlanController {
 	
 	@GetMapping
 	public List<Plan> listarClientes (){
-		return planInterface.findAllPlanes();
+	  return planInterface.findAllPlanes();
 	}
 	@PostMapping
 	public PlanDto createPlan(@RequestBody PlanDto planDto) {
